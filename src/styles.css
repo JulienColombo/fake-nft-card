@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fondoApp {
+  background-color: rgb(9, 25, 46);
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nftcard--cont {
+  background-color: rgb(17, 46, 90);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.nftcard {
+  display: grid;
+}
+
+.nftcard--image {
+  height: 250px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.nft--title {
+  color: rgb(203, 207, 218);
+  font-family: monospace;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: start;
+  font-size: 26px;
+}
+
+.nft--text {
+  color: rgb(169, 173, 182);
+  font-family: monospace;
+  margin-bottom: 12px;
+  text-align: start;
+  font-size: 14px;
+}
+
+.nft--info--price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft--price {
+  font-size: 16px;
+  color: rgb(88, 74, 114);
+  font-weight: 600;
+}
+
+.nft--eth--image {
+  margin-bottom: -3px;
+  height: 20px;
+  width: 20px;
+}
+
+.nft--time {
+  color: rgb(169, 173, 182);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nft--time--image {
+  margin-bottom: -5px;
+  height: 22px;
+  width: 22px;
+}
+
+.nft--linespace {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nftcard-signature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nft--user--signature {
+  height: 30px;
+  width: 30px;
+}
+
+.nftcard--text--signature {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium";
+}
